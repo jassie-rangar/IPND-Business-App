@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    tools:context="com.example.android.businessapp.MainActivity">
+
+    <ImageView
+        android:src="@drawable/candy"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:scaleType="centerInside"
+        android:id="@+id/sweet"/>
+
+    <TextView
+        android:id="@+id/shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:text="Uncle Berry's Cake Shop!!"
+        android:textColor="#8e504b"/>
+
+    <TextView
+        android:id="@+id/cake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_below="@id/sweet"
+        android:text="Spl.in Dark Chocolate Cake"
+        android:textColor="#8e504b"/>
+
+    <TextView
+        android:id="@+id/gf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="~as sweet as your Gf/Bf!! :*"
+        android:layout_below="@id/cake"
+        android:padding="8dp"
+        android:textColor="#ea4b3e"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: Shop no-15, XYZ City"
+        android:layout_below="@id/gf"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textColor="#407989"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:text="Contact- +917851469325"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textColor="#407989"/>
+
+
+</RelativeLayout>
